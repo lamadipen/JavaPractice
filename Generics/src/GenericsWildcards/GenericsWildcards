@@ -1,0 +1,16 @@
+Java Generics Wildcards
+
+Question mark (?) is the wildcard in generics and represent an unknown type.
+The wildcard can be used as the type of a parameter, field, or local variable
+and sometimes as a return type. We can’t use wildcards while invoking a generic
+method or instantiating a generic class.
+
+Java Generics Type Erasure
+
+Generics in Java was added to provide type-checking at compile time and it has no
+use at run time, so java compiler uses type erasure feature to remove all the generics
+type checking code in byte code and insert type-casting if necessary. Type erasure ensures
+that no new classes are created for parameterized types; consequently, generics incur no runtime overhead.
+
+Site url
+http://www.journaldev.com/1663/java-generics-example-method-class-interface

@@ -1,0 +1,6 @@
+Java Generics Wildcards
+
+Question mark (?) is the wildcard in generics and represent an unknown type.
+The wildcard can be used as the type of a parameter, field, or local variable
+and sometimes as a return type. We can’t use wildcards while invoking a generic
+method or instantiating a generic class.
